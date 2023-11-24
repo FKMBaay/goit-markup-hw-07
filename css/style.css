@@ -35,7 +35,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    padding-left: 156px;
+    padding-left: 130px;
 
 }
 
@@ -64,8 +64,15 @@ body {
     justify-content: center;
     background-color: cloud;
 }
-
-.telf {
+.infomail {
+    margin-right: 30px;
+    gap: 80px;
+    padding: 10px 180px;
+}
+.mailf {
+    padding-left: 140px;
+}
+.mailinfo {
     margin-right: 10px;
 }
 .textdesign {
@@ -82,9 +89,7 @@ head:hover {
     color: rgb(129, 5, 102);
   
 }
-.contct {
-    padding-right: 50px;
-}
+
 .head-info {
     margin-left: 940px;
 }
@@ -585,7 +590,7 @@ footer .iconstwo {
 
 
 /* Portfolio Are  */
-
+/* HEADER */
 
 .unof {
     border-bottom: 1px solid var(--cornflower);
@@ -593,10 +598,7 @@ footer .iconstwo {
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     display: inline-block;
     width: 100%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: center;
-    display: inline-flex;
+   
 }.dosf {
     width: 100%;
     display: flex;
