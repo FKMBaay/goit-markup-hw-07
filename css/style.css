@@ -26,7 +26,7 @@ header {
     line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding-right: 76px;
+    padding-right: 36px;
 
 }
 .logo span {
@@ -35,7 +35,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    padding-left: 130px;
+    padding-left: 30px;
 
 }
 
@@ -70,7 +70,8 @@ body {
     padding: 10px 180px;
 }
 .mailf {
-    padding-left: 140px;
+    padding-left: 240px;
+    margin-left: 60px;
 }
 .mailinfo {
     margin-right: 10px;
