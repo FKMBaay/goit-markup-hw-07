@@ -17,6 +17,7 @@ header {
 }
 
 .logo {
+    padding-top: 18px;
     color: #2E2F42;
     font-family: Raleway, sans serif;
     font-size: 18px;
@@ -44,10 +45,11 @@ body {
 
 .toraul {
     list-style: none;
-    padding-left: 0;
+    
     display: flex;
     gap: 40px;
     text-align: left; 
+    padding-right: 15px;
 
 } 
 .toraulin {
@@ -62,63 +64,50 @@ body {
     justify-content: center;
     background-color: cloud;
 }
+.mailf {
+    padding-left: 85px;
+
+}
+.telf {
+    margin-right: 10px;
+}
 .textdesign {
     text-align: left;
 }
-
-
-
 .toraulin p {
     text-align: center;
 }
-
-
 .markguerrero {
     height: 260px;
     width: 264px;
 }
-
-
-
-
-
-    
-
 .dos {
     display: flex;
 }
-
-
-
 head:hover {
     color: rgb(129, 5, 102);
   
 }
-
-
 .uno {
    display: flex;
    align-items: center;
   
 }
-
-
 .dos {
    align-items: center;
 }
 
-
-.mai {
+.head-info {
     margin-left: 940px;
+}
+.info-mail {
+    
     gap: 40px;
    
 }
-.tee {
+.info-tel {
     margin-left: 40px;
-}
-
-.tel {
-    text-align: right
+    text-align: center;
 }
 
 
@@ -332,7 +321,7 @@ Costumer Area
     width: 100%;
     border-radius: 2px;
     background-color: var(--iris);
-   bottom: -18px;
+   bottom: -20px;
     position: relative;
     left: 0;  
 }
@@ -535,6 +524,25 @@ footer .iconstwo {
     text-align: left;
     
 }
+.mediaf {
+    color: cloud#2E2F42;
+    font-family: roboto, sans serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0px;
+    text-align: left;
+}   
+.socmedf {
+        color: var(--white);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        text-align: left;
+        margin-left: 0px;
+
+    }
+
 .socmed {
     color: var(--white);
     font-family: Roboto;
@@ -582,23 +590,33 @@ footer .iconstwo {
 
 
 .unof {
+    display: flex;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     display: inline-block;
-       
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    display: inline-flex;
 }.dosf {
+    width: 100%;
+    display: flex;
     display: inline-block;
     justify-content:center ;
     display: inline-flex;
-    align-items: flex-start;
+   
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .projectbut {
+    justify-content: center;
+    display: flex;
     text-align: center;
     border-radius: 4px;
+    width: 100%;
+
 }
 .buttonf {
     
@@ -685,7 +703,8 @@ footer .iconstwo {
     text-align: left;
     
 }
-.container {
+.containerf {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
