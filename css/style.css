@@ -53,13 +53,21 @@ body {
     font-family: "roboto", sans-serif;
 }
 
-.toraul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    text-align: center; 
-    padding-right: 15px; 
+.head {
+   
 
+
+}
+
+.head-info {
+    display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 40px;
+        text-align: center;
+    
+        justify-content: center;
 }
 .stratsvg {
     text-align: center;
@@ -121,9 +129,6 @@ head:hover {
   
 }
 
-.head-info {
-    margin-left: 940px;
-}
 .info-mail {
     
     gap: 40px;
@@ -201,6 +206,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     text-wrap: wrap;
+    width: 100%;
+    gap: 8px;
 }
 .stratcom {
     display: flex;
@@ -209,8 +216,8 @@ button:hover {
     font-style: normal;
     text-decoration: none;
     text-wrap: wrap;
-   justify-content: center;
-   width: 100%;
+    justify-content: center;
+    width: 100%;
     
 }
 
@@ -568,7 +575,7 @@ footer .toraulin {
     padding-bottom: 0;}
 footer .iconstwo {
     justify-content: left;
-    text-decoration: none;h2
+    text-decoration: none;
     margin-left: 200px;
 }
 .footp {
@@ -611,6 +618,8 @@ footer .iconstwo {
 
 .mainindx {
     font-size: 100%;
+    display: inline;
+    flex-wrap: wrap;
     justify-content: center;
     }
 
@@ -656,10 +665,12 @@ footer .iconstwo {
 
 
 
+
+
 /* Portfolio Are  */
 /* HEADER */
 
-.unof {
+.head-logo {
     border-bottom: 1px solid var(--cornflower);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -673,8 +684,8 @@ footer .iconstwo {
     text-justify: inter-word;
     flex-wrap: wrap;
     padding: 10px 10px;
-   
-}.dosf {
+
+}.header-info {
     display: flex;
     flex-wrap: wrap;
     display: inline-block;
@@ -684,16 +695,16 @@ footer .iconstwo {
    text-justify: inter-word;
     flex-wrap: wrap;
     padding: 10px 10px;
-   
 }
 
 .projectbut {
+    flex-wrap: wrap;
     justify-content: center;
     display: flex;
     text-align: center;
     border-radius: 4px;
     width: 100%;
-    height: 100%;
+   
 
 }
 .buttonf {
@@ -752,6 +763,7 @@ footer .iconstwo {
 .projectimg {
     position: relative;
     overflow: hidden;
+    text-align: left
 }
 .flista:hover .projectimgcaption {
     opacity: 1;
@@ -793,8 +805,11 @@ footer .iconstwo {
     display: inline-flex;
     align-items: flex-start;
     font-size: 100%;
-
+    text-align: left;
+    
 }
+
+
 .footcontainer{
     display: flex;
     flex-wrap: wrap;
